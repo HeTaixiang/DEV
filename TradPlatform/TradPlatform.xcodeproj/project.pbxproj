@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A149D4BF15E212580008761E /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A149D4BE15E212580008761E /* main.storyboard */; };
 		A169DA0A15E1EB1E0093AECC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A169DA0915E1EB1E0093AECC /* UIKit.framework */; };
 		A169DA0C15E1EB1E0093AECC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A169DA0B15E1EB1E0093AECC /* Foundation.framework */; };
 		A169DA0E15E1EB1E0093AECC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A169DA0D15E1EB1E0093AECC /* CoreGraphics.framework */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A149D4BE15E212580008761E /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		A169DA0515E1EB1E0093AECC /* TradPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169DA0915E1EB1E0093AECC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A169DA0B15E1EB1E0093AECC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +118,7 @@
 		A169DA1015E1EB1E0093AECC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A149D4BE15E212580008761E /* main.storyboard */,
 				A169DA1115E1EB1E0093AECC /* TradPlatform-Info.plist */,
 				A169DA1215E1EB1E0093AECC /* InfoPlist.strings */,
 				A169DA1515E1EB1E0093AECC /* main.m */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A169DA1415E1EB1E0093AECC /* InfoPlist.strings in Resources */,
+				A149D4BF15E212580008761E /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +422,7 @@
 				A169DA3415E1EB1E0093AECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A169DA3515E1EB1E0093AECC /* Build configuration list for PBXNativeTarget "TradPlatformTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				A169DA3715E1EB1E0093AECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
